@@ -1,0 +1,11 @@
+name: mAnimalRewinder
+version: '${project.version}'
+main: com.blockstock.plugins.mAnimalRewinder.mAnimalRewinder
+api-version: '1.18'
+authors: [ musbabaff ]
+website: musbabaff.com
+commands:
+  manimalrewinder:
+    description: Reload the mAnimalRewinder configuration.
+    usage: /<command> reload
+    permission: manimalrewinder.reload
